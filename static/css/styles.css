@@ -359,30 +359,20 @@ padding: 8px;
       left: 3vw;
       top: 6vw;
       position: relative;
+      font-size: 16pt;
   }
 
 
   #CREATED{
       font-size: 25pt;
       text-align: right;
+      padding-left: 0;
   }
-  #NAME{
-    font-size: 3em;
-
-  }
-  #EMAIL {
-    font-size: 2rem;
-    position: absolute;
-    right: 10vw;
-    top: 4.5em;
-    float:right;
-    margin-right: 3vw;
-  }
-
-  #EMAIL a {
+  
+  #CREATED a {
     color: #9a6ec5;
   }
 
-  #EMAIL a:hover {
+  #CREATED a:hover {
     color: whitesmoke;
   }
