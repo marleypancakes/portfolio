@@ -70,7 +70,7 @@ a {
 
 #section1 {
     padding: 5px;
-    min-height: 100vh;
+    min-height: 50vh;
     z-index: 1;
     color: rgb(0, 0, 0);
     font-size: 20pt;
@@ -143,8 +143,9 @@ padding: 8px;
     background-attachment: fixed;
     background-size: 300% 100%;
     width: 100%;
-    height: 60vh;
+    min-height: 70vh;
     animation: oscillate 5s infinite linear;
+    overflow-x: hidden;
 }
 
 .grid{
