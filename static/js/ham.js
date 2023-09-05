@@ -1,7 +1,10 @@
+
+
 var menu = document.querySelector(".menu");
 var ham = document.querySelector(".ham");
 var xIcon = document.querySelector(".xIcon");
 var menuIcon = document.querySelector(".menuIcon");
+var section3 = document.getElementById("section3");
 
 ham.addEventListener("click", toggleMenu);
 
@@ -25,3 +28,8 @@ menuLinks.forEach(
         menuLink.addEventListener("click", toggleMenu)
     }
 )
+
+// Hide Selected Elements on Mobile
+    if(window.innerWidth<=700 && section3){
+        section3.remove();
+    }    

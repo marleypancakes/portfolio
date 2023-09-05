@@ -162,6 +162,7 @@ padding: 8px;
     bottom: 0px;
     text-align: center;
     color: rgb(253, 231, 245);;
+    box-sizing: border-box;
 
 }
 #section4 h1{
@@ -347,7 +348,6 @@ padding: 8px;
       animation: oscillate 5s infinite linear;
       display: table;
       width: 100vw;
-      overflow: auto;
   }
 
   #social-links {
@@ -374,7 +374,7 @@ padding: 8px;
   }
   
   #CREATED a {
-    color: #9a6ec5;
+    color: #0000EE;
   }
 
   #CREATED a:hover {
@@ -384,5 +384,10 @@ padding: 8px;
   @media only screen and (max-width: 600px) {
   #TITLE {
       font-size: 60pt;
+  }
+  #CREATED {
+    text-align: left;
+    font-size: 16pt;
+    overflow-x:hidden;
   }
 }
