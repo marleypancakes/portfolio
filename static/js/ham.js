@@ -12,12 +12,12 @@ ham.addEventListener("click", toggleMenu);
 function toggleMenu() {
     if (menu.classList.contains("showMenu")){
         menu.classList.remove("showMenu");
-        xIcon.style.display = "none";
-        menuIcon.style.display = "block";
+        xIcon.hidden = true;
+        menuIcon.hidden = false;
     } else {
         menu.classList.add("showMenu");
-        xIcon.style.display = "block";
-        menuIcon.style.display = "none";
+        xIcon.hidden = false;
+        menuIcon.hidden = true;
     }
 }
 
