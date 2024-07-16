@@ -97,6 +97,9 @@ a {
     border-radius: 200%;
     box-shadow: 2px 14px 50px 27px #FFFFFF, inset 1px 14px 50px 27px #FFFFFF;
     float: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #section2 {
