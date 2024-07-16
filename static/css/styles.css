@@ -95,6 +95,7 @@ a {
     top: 15vh;
     text-align: center;
     border-radius: 200%;
+    justify-content: center;
     box-shadow: 2px 14px 50px 27px #FFFFFF, inset 1px 14px 50px 27px #FFFFFF;
     float: none;
     display: flex;
@@ -189,6 +190,24 @@ padding: 8px;
 
 #section4 a:hover{
     color: #9a6ec5;
+}
+
+#section5 {
+    background-color: rgb(48, 44, 46);
+    color: rgb(253, 231, 245);
+    text-align: center;
+    padding-bottom: 4vh;
+    width: 100%;
+}
+
+#section5 h1 {
+    margin-top: 4vh;
+    display: inline-block;
+    font-size: 50pt
+}
+
+.carousel-caption {
+    background-color: rgba(48, 44, 46, 0.7);
 }
 
 .ham {
